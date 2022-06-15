@@ -150,7 +150,8 @@ while not game_over:
                         pygame.draw.rect(window, BLACK, (0,
                                                          0, width, SQUARE_SIZE))
                         label = my_font.render("Player 1 wins!", 1, RED)
-                        window.blit(label, (40, 10))
+                        window.blit(label, (110, 20))
+                        pygame.display.update()
                         game_over = True
                         pygame.time.wait(3000)
                         pygame.display.quit()
@@ -170,7 +171,8 @@ while not game_over:
                         pygame.draw.rect(window, BLACK, (0,
                                                          0, width, SQUARE_SIZE))
                         label = my_font.render("Player 2 wins!", 1, YELLOW)
-                        window.blit(label, (40, 10))
+                        window.blit(label, (110, 20))
+                        pygame.display.update()
                         game_over = True
                         pygame.time.wait(3000)
                         pygame.display.quit()

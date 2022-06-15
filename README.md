@@ -13,4 +13,4 @@ with all the possible winning locations
 in the implementation here, however, a win is checked by checking if the is a matching row of four
 same-colored pieces surrounding the last placed piece
 
-// I am still learning how to design so pardon the crude presentation
+// I am still learning how to design so pardon the crude UI
